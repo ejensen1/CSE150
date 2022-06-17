@@ -1,0 +1,130 @@
+Successful or Unsuccessful,Server Status Code,Requested URL,hostname,source IP,destination IP,source port,destination port,Server Response line
+False,-,-,www.example.com,-,-,-,443,-
+False,302,http://notawebsite.com/,notawebsite.com,172.27.3.53,45.33.19.73,41562,80,302 Moved Temporarily 
+False,302,http://notawebsite.com/,notawebsite.com,172.27.3.53,45.33.19.73,41572,80,302 Moved Temporarily 
+False,-,-,www.example.com,-,-,-,443,-
+True,200,http://www.example.com/,www.example.com,172.27.3.53,93.184.216.34,52656,80,200 OK 
+False,-,-,www.example.com,-,-,-,443,-
+False,403,http://www.example.com/,www.example.com,172.27.3.53,1.0.0.0,37876,80,403 Forbidden 
+False,403,http://www.example.com/,www.example.com,172.27.3.53,1.0.0.0,37878,80,403 Forbidden 
+False,403,http://www.example.com/,www.example.com,172.27.3.53,1.0.0.0,37880,80,403 Forbidden 
+False,403,http://www.example.com/,www.example.com,172.27.3.53,1.0.0.0,37884,80,403 Forbidden 
+True,200,http://neverssl.com/,neverssl.com,172.28.67.24,13.35.121.94,50362,80,200 OK 
+True,200,http://neverssl.com/,neverssl.com,172.28.67.24,13.35.121.70,34212,80,200 OK 
+True,200,http://neverssl.com/,neverssl.com,172.28.67.24,13.35.121.94,50370,80,200 OK 
+True,200,http://neverssl.com/,neverssl.com,172.28.67.24,13.35.121.94,50372,80,200 OK 
+True,200,http://neverssl.com/,neverssl.com,172.28.67.24,13.249.87.72,56820,80,200 OK 
+True,200,http://neverssl.com/,neverssl.com,172.28.67.24,13.35.121.6,55492,80,200 OK 
+True,200,http://neverssl.com/,neverssl.com,172.28.67.24,13.35.121.94,50404,80,200 OK 
+True,200,http://neverssl.com/,neverssl.com,172.28.67.24,13.35.121.94,50406,80,200 OK 
+True,200,http://neverssl.com/,neverssl.com,172.28.67.24,13.35.121.94,50408,80,200 OK 
+True,200,http://neverssl.com/,neverssl.com,172.28.67.24,13.35.121.94,50410,80,200 OK 
+True,200,http://neverssl.com/,neverssl.com,172.28.67.24,13.35.121.94,50412,80,200 OK 
+True,200,http://neverssl.com/,neverssl.com,172.28.67.24,13.35.121.73,43792,80,200 OK 
+True,200,http://www.example.com/,www.example.com,172.28.67.24,93.184.216.34,39592,80,200 OK 
+True,200,http://www.example.com/,www.example.com,172.28.67.24,93.184.216.34,39594,80,200 OK 
+True,200,http://neverssl.com/,neverssl.com,172.28.67.24,13.35.121.6,55532,80,200 OK 
+True,200,http://neverssl.com/,neverssl.com,172.28.67.24,13.35.121.73,43804,80,200 OK 
+True,200,http://neverssl.com/,neverssl.com,172.28.67.24,13.35.121.6,55540,80,200 OK 
+True,200,http://neverssl.com/,neverssl.com,172.28.67.24,13.35.121.6,55542,80,200 OK 
+True,200,http://neverssl.com/,neverssl.com,172.28.67.24,13.35.121.6,55544,80,200 OK 
+True,200,http://www.example.com/,www.example.com,172.28.67.24,93.184.216.34,39610,80,200 OK 
+True,200,http://www.example.com/,www.example.com,172.28.67.24,93.184.216.34,39612,80,200 OK 
+True,200,http://www.neverssl.com/,www.neverssl.com,172.28.67.24,13.35.121.73,43818,80,200 OK 
+True,200,http://www.neverssl.com/,www.neverssl.com,172.28.67.24,13.35.121.73,43820,80,200 OK 
+True,200,http://www.neverssl.com/,www.neverssl.com,172.28.67.24,13.35.121.94,50444,80,200 OK 
+True,200,http://www.neverssl.com/,www.neverssl.com,172.28.67.24,13.35.121.70,34292,80,200 OK 
+True,200,http://www.example.com/,www.example.com,172.28.67.24,93.184.216.34,39628,80,200 OK 
+True,200,http://www.example.com/,www.example.com,172.28.67.24,93.184.216.34,39632,80,200 OK 
+True,200,http://www.example.com/,www.example.com,172.28.67.24,93.184.216.34,39636,80,200 OK 
+True,200,http://pudim.com.br/,pudim.com.br,172.28.67.24,54.207.20.104,38004,80,200 OK 
+False,-,-,www.google.com,-,-,-,80,-
+False,404,http://www.example.com/anyname.html,www.example.com,172.28.67.24,93.184.216.34,39646,80,404 Not Found 
+True,200,http://neverssl.com/,neverssl.com,172.28.67.24,13.35.121.94,50472,80,200 OK 
+False,-,-,www.example.com,-,-,-,443,-
+True,200,http://www.example.com/,www.example.com,172.28.67.24,93.184.216.34,39652,80,200 OK 
+True,200,http://pudim.com.br/,pudim.com.br,172.28.67.24,54.207.20.104,38020,80,200 OK 
+False,-,-,www.google.com,-,-,-,80,-
+False,404,http://www.example.com/anyname.html,www.example.com,172.28.67.24,93.184.216.34,39662,80,404 Not Found 
+True,200,http://neverssl.com/,neverssl.com,172.28.67.24,13.35.121.73,43866,80,200 OK 
+False,-,-,www.example.com,-,-,-,443,-
+True,200,http://pudim.com.br/,pudim.com.br,172.28.67.24,54.207.20.104,38032,80,200 OK 
+True,200,http://www.example.com/,www.example.com,172.28.67.24,93.184.216.34,39672,80,200 OK 
+True,200,http://pudim.com.br/,pudim.com.br,172.28.67.24,54.207.20.104,38040,80,200 OK 
+False,-,-,www.google.com,-,-,-,80,-
+False,404,http://www.example.com/anyname.html,www.example.com,172.28.67.24,93.184.216.34,39682,80,404 Not Found 
+True,200,http://neverssl.com/,neverssl.com,172.28.67.24,13.35.121.94,50508,80,200 OK 
+False,-,-,www.example.com,-,-,-,443,-
+True,200,http://pudim.com.br/,pudim.com.br,172.28.67.24,54.207.20.104,38052,80,200 OK 
+True,200,http://www.example.com/,www.example.com,172.28.67.24,93.184.216.34,39692,80,200 OK 
+True,200,http://pudim.com.br/,pudim.com.br,172.28.67.24,54.207.20.104,38060,80,200 OK 
+False,-,-,www.google.com,-,-,-,80,-
+False,404,http://www.example.com/anyname.html,www.example.com,172.28.67.24,93.184.216.34,39702,80,404 Not Found 
+True,200,http://neverssl.com/,neverssl.com,172.28.67.24,13.35.121.73,43906,80,200 OK 
+False,-,-,www.example.com,-,-,-,443,-
+True,200,http://www.example.com/,www.example.com,172.28.67.24,93.184.216.34,39708,80,200 OK 
+True,200,http://pudim.com.br/,pudim.com.br,172.28.67.24,54.207.20.104,38076,80,200 OK 
+False,-,-,www.google.com,-,-,-,80,-
+False,404,http://www.example.com/anyname.html,www.example.com,172.28.67.24,93.184.216.34,39718,80,404 Not Found 
+True,200,http://neverssl.com/,neverssl.com,172.28.67.24,13.35.121.70,34388,80,200 OK 
+False,-,-,www.example.com,-,-,-,443,-
+True,200,http://www.example.com/,www.example.com,172.28.70.80,93.184.216.34,33958,80,200 OK 
+True,200,http://pudim.com.br/,pudim.com.br,172.28.70.80,54.207.20.104,51962,80,200 OK 
+False,-,-,www.google.com,-,-,-,80,-
+False,404,http://www.example.com/anyname.html,www.example.com,172.28.70.80,93.184.216.34,33968,80,404 Not Found 
+True,200,http://neverssl.com/,neverssl.com,172.28.70.80,13.35.121.70,53326,80,200 OK 
+False,-,-,www.example.com,-,-,-,443,-
+True,200,http://www.example.com/,www.example.com,172.28.72.179,93.184.216.34,57982,80,200 OK 
+True,200,http://pudim.com.br/,pudim.com.br,172.28.72.179,54.207.20.104,41540,80,200 OK 
+False,-,-,www.google.com,-,-,-,80,-
+False,404,http://www.example.com/anyname.html,www.example.com,172.28.72.179,93.184.216.34,57992,80,404 Not Found 
+True,200,http://neverssl.com/,neverssl.com,172.28.72.179,13.35.121.73,44882,80,200 OK 
+False,-,-,www.example.com,-,-,-,443,-
+False,-,-,www.google.com,-,-,-,443,-
+False,-,-,www.google.com,-,-,-,443,-
+True,200,http://www.example.com/,www.example.com,172.28.72.179,93.184.216.34,58000,80,200 OK 
+False,-,http://www.soe.ucsc.edu/,www.soe.ucsc.edu,172.28.72.179,128.114.47.158,44240,443,Empty reply from server
+False,-,http://www.google.com/,www.google.com,172.28.72.179,142.250.217.132,49528,443,Empty reply from server
+False,-,http://www.google.com/,www.google.com,172.28.72.179,142.250.217.132,49530,443,Empty reply from server
+False,-,http://www.soe.ucsc.edu/,www.soe.ucsc.edu,172.28.72.179,128.114.47.158,44262,443,Empty reply from server
+False,-,-,www.google.com,-,-,-,80,-
+False,-,-,www.google.com,-,-,-,80,-
+False,-,http://www.google.com/,www.google.com,172.28.72.179,142.250.217.132,49548,443,Empty reply from server
+True,200,http://www.example.com/,www.example.com,172.28.72.179,93.184.216.34,58084,80,200 OK 
+True,200,http://www.example.com/,www.example.com,172.28.72.179,93.184.216.34,58102,80,200 OK 
+True,200,http://pudim.com.br/,pudim.com.br,172.28.72.179,54.207.20.104,41660,80,200 OK 
+False,-,-,www.google.com,-,-,-,80,-
+False,404,http://www.example.com/anyname.html,www.example.com,172.28.72.179,93.184.216.34,58112,80,404 Not Found 
+True,200,http://neverssl.com/,neverssl.com,172.28.72.179,13.35.121.94,47222,80,200 OK 
+False,-,http://www.example.com/,www.example.com,172.28.72.179,93.184.216.34,37760,443,Empty reply from server
+False,-,http://www.google.com/,www.google.com,172.28.72.179,142.250.217.132,49590,443,Empty reply from server
+False,-,http://www.soe.ucsc.edu/,www.soe.ucsc.edu,172.28.72.179,128.114.47.158,44322,443,Empty reply from server
+False,-,http://www.example.com/,www.example.com,-,93.184.216.34,-,100,Empty reply from server
+False,-,http://www.example.com/,www.example.com,-,93.184.216.34,-,100,Empty reply from server
+False,-,http://www.example.com/,www.example.com,-,93.184.216.34,-,100,Empty reply from server
+True,200,http://www.example.com/,www.example.com,172.28.72.179,93.184.216.34,58158,80,200 OK 
+True,200,http://pudim.com.br/,pudim.com.br,172.28.72.179,54.207.20.104,41716,80,200 OK 
+False,-,http://www.google.com/,www.google.com,-,-,-,80,-
+False,404,http://www.example.com/anyname.html,www.example.com,172.28.72.179,93.184.216.34,58168,80,404 Not Found 
+True,200,http://neverssl.com/,neverssl.com,172.28.72.179,13.35.121.70,60732,80,200 OK 
+False,-,http://www.example.com/,www.example.com,172.28.72.179,93.184.216.34,37816,443,Empty reply from server
+False,-,http://www.example.com/,www.example.com,172.28.72.179,93.184.216.34,37820,443,Empty reply from server
+False,-,http://www.example.com/,www.example.com,172.28.72.179,93.184.216.34,37822,443,Empty reply from server
+False,-,http://www.example.com/,www.example.com,-,93.184.216.34,-,100,Empty reply from server
+False,-,http://www.example.com/,www.example.com,-,93.184.216.34,-,100,Empty reply from server
+False,-,http://www.example.com/,www.example.com,-,93.184.216.34,-,100,Empty reply from server
+False,-,http://www.example.com/,www.example.com,-,93.184.216.34,-,100,Empty reply from server
+False,-,http://www.example.com/,www.example.com,-,-,-,100,No response from server
+True,200,http://www.example.com/,www.example.com,172.28.72.179,93.184.216.34,58196,80,200 OK 
+True,200,http://pudim.com.br/,pudim.com.br,172.28.72.179,54.207.20.104,41754,80,200 OK 
+False,-,http://www.google.com/,www.google.com,-,-,-,80,-
+False,404,http://www.example.com/anyname.html,www.example.com,172.28.72.179,93.184.216.34,58206,80,404 Not Found 
+True,200,http://neverssl.com/,neverssl.com,172.28.72.179,13.35.121.6,38784,80,200 OK 
+False,-,http://www.example.com/,www.example.com,172.28.72.179,93.184.216.34,37854,443,Empty reply from server
+True,200,http://www.example.com/,www.example.com,172.28.72.179,93.184.216.34,58214,80,200 OK 
+True,200,http://pudim.com.br/,pudim.com.br,172.28.72.179,54.207.20.104,41772,80,200 OK 
+False,-,http://www.google.com/,www.google.com,-,-,-,80,-
+False,404,http://www.example.com/anyname.html,www.example.com,172.28.72.179,93.184.216.34,58224,80,404 Not Found 
+True,200,http://neverssl.com/,neverssl.com,172.28.72.179,13.35.121.70,60788,80,200 OK 
+False,-,http://www.example.com/,www.example.com,172.28.72.179,93.184.216.34,37872,443,Empty reply from server
+False,-,http://www.example.com/,www.example.com,172.28.72.179,93.184.216.34,37874,443,Empty reply from server
